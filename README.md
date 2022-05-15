@@ -21,7 +21,7 @@ https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::neighbo
 <br>
 <br>
 
-## Multimedia:
+## Multimedia
 This short [Youtube video](https://www.youtube.com/watch?v=7itJt8c0V8M)—Youtube Video: Cities and Rising Energy Consumption 101—introduces and emphasizes why energy consumption is so important to our lives especially in cities. cities are responsible for 80% of the world's energy consumption.A large amount of energy consumption also means a large carbon emission. Emissions are not only an environmental problem, but also a health problem. Over six million premature deaths per year are attributable to air pollution. Also, the video presents several ways for cities to reduce their energy consumption. From this introductory video, we hope that users can learn why energy consumption is so crucial for our lives, especially for residents who live in metropolitan areas such as Seattle. The video raises users’ awareness of energy consumption, and therefore connects to our project, Seattle energy consumption. 
 
 Image: Energy consumption analysis from 2014 - 2016 <br>
