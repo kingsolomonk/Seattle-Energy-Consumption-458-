@@ -39,7 +39,7 @@ Journal Article: Impacts of the COVID-19 lockdown on building energy consumption
 ## Project Format
 
 * Projection 4326
-* Zoom levels 2 - 14 since the focus is on the neighborhoods of Seattle, will require some zooming in
+* Zoom levels 1 - 14 since the focus is on the neighborhoods of Seattle, will require some zooming in
 * Center of map view = around Green Lake Park (47.68032911477562, -122.3275283846573)
 * The base map will be a darker, greyer theme in order to emphasize the lighter green to red tones that will be used for classifying the energy usage spectrum. (either Moonlit or Dark Theme from Mapbox)
 * Choropleths will be made to highlight the various neighborhoods within Seattle based on the aggregate energy consumption of each boundary in a neighborhoods shapefile
