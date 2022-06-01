@@ -37610,13 +37610,17 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #ffff00 !important;
         }
 
+        a.u-button-style.u-button-style.u-button-style.u-text-hover-custom-color-3.active {
+          color: white !important;
+        }
+
         .u-text-custom-color-3 .u-svg-link,
         .u-text-hover-custom-color-3:hover .u-svg-link,
         .u-button-style:hover > .u-text-hover-custom-color-3 .u-svg-link,
         .u-button-style.u-button-style.active > .u-text-active-custom-color-3 .u-svg-link,
         .u-text-hover-custom-color-3:focus .u-svg-link
         {
-            fill: #ffff00;
+            fill: white;
         }
 
         .u-link.u-text-custom-color-3:hover
