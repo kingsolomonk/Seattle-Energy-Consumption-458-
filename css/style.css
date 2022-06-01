@@ -92,8 +92,8 @@ body {
     z-index: 1;
     justify-content: space-around;
     align-items: center;
-    min-height: 1vh;
-    background-color: rgb(93, 156, 207);
+    height: 109px;
+    background-color: #478ac9;
     font-family: "Montserrat", sans-serif;
     width: 100%;
 } 
@@ -113,6 +113,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .nav-links a {
@@ -124,11 +125,6 @@ body {
     padding: 14px 16px;
 }
 
-.nav-links li a:hover:not(.active) {
-    background-color: yellow;
-    color: black;
-}
-
-.nav-links li a.active {
-    background-color: green;
+.nav-links li a:hover{
+    color: yellow;
 }
