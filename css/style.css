@@ -15,7 +15,7 @@ body {
     background: #fff;
     position: absolute;
     z-index: 2;
-    top: 100px;
+    top: 2vh;
     right: 10px;
     border-radius: 3px;
     width: 120px;
@@ -92,7 +92,7 @@ body {
     z-index: 1;
     justify-content: space-around;
     align-items: center;
-    height: 109px;
+    height: 12vh;
     background-color: #478ac9;
     font-family: "Montserrat", sans-serif;
     width: 100%;
