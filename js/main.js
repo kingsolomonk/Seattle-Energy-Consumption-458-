@@ -72,6 +72,18 @@ mapboxgl.accessToken =
                 link.textContent = id;
                 link.className = 'inactive';
 
+                if (link.id === "naturalgas") {
+                    link.addEventListener("click", () => {
+                        let gasLegend = document.getElementById("g-legend");
+                        gasLegend.classList.toggle("hidden");
+                    });
+                } else if (link.id === "electricity") {
+                    link.addEventListener("click", () => {
+                        let eLegend = document.getElementById("e-legend");
+                        eLegend.classList.toggle("hidden");
+                    });
+                }
+
                 // Show or hide layer when the toggle is clicked.
                 link.onclick = function (e) {
                     const clickedLayer = this.textContent;
@@ -102,22 +114,14 @@ mapboxgl.accessToken =
                             'visible'
                         );
                     }
+                    
                 };
 
                 // in the menu place holder, insert the layer links.
                 const layers = document.getElementById('menu');
                 layers.appendChild(link);
             }
-        });
 
-        // const stateLegendEl = document.getElementById('state-legend');
-        // const countyLegendEl = document.getElementById('county-legend');
-        // map.on('zoom', () => {
-        // if (map.getZoom() > zoomThreshold) {
-        //         stateLegendEl.style.display = 'none';
-        //         countyLegendEl.style.display = 'block';
-        //     } else {
-        //         stateLegendEl.style.display = 'block';
-        //         countyLegendEl.style.display = 'none';
-        //     }
-        // }); 
+        });
+        
+   

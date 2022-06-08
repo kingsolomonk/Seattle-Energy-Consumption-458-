@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Map Design</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+</head>
+<body>
+    <nav id = "navbar">
+        <div class = "heading">
+            <h4>Seattle Energy Consumption 2017</h4>
+        </div>
+        <ul class = "nav-links">
+            <li><a href='map2.html'>Pre-Covid Map</a></li>
+            <li><a href='map.html'>Mid-Covid Map</a></li>
+            <li><a href='index.html'>About</a></li>
+            <li><a href='index.html#sec-8d64'>External Sources</a></li>
+            <li><a href='index.html#sec-0bf4'>Contact</a></li>
+        </ul>
+    </nav>
+    <nav id="menu">
+    </nav>
+    <div id='map'></div>
+    <div id="e-legend" class="legend hidden">
+        <h4>Electricty Usage (kWh)</h4>
+        <div><span style="background-color: #ffffb2"></span>2,423,128 - 51,197,867</div>
+        <div><span style="background-color: #fecc5c"></span>51,197,867 - 64,963,114</div>
+        <div><span style="background-color: #fd8d3c"></span>64,963,114 - 104,866,085</div>
+        <div><span style="background-color: #f03b20"></span>104,866,085 - 192,922,132</div>
+        <div><span style="background-color: #bd0026"></span>192,922,132 - 1,550,867,481</div>
+    </div>
+
+    <div id="g-legend" class="legend hidden">
+        <h4>Natural Gas Usage (therms)</h4>
+        <div><span style="background-color: #1a9641"></span>104,529 - 636,966</div>
+        <div><span style="background-color: #fecc5c"></span>636,966 - 1,296,648</div>
+        <div><span style="background-color: #fd8d3c"></span>1,296,648 - 1,814,783</div>
+        <div><span style="background-color: #f03b20"></span>1,814,783 - 3,436,138</div>
+        <div><span style="background-color: #d7191c"></span>3,436,138 - 14,673,487</div>
+    </div>
+    <div>
+        
+    </div>
+    <script src="js/main2.js"></script>
+    
+    
+</body>
+
+</html>

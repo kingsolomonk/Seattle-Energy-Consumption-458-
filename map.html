@@ -12,10 +12,11 @@
 <body>
     <nav id = "navbar">
         <div class = "heading">
-            <h4>Seattle Energy Consumption 2015-2020</h4>
+            <h4>Seattle Energy Consumption 2020</h4>
         </div>
         <ul class = "nav-links">
-            <li><a href='map.html'>Map</a></li>
+            <li><a href='map2.html'>Pre-Covid Map</a></li>
+            <li><a href='map.html'>Mid-Covid Map</a></li>   
             <li><a href='index.html'>About</a></li>
             <li><a href='index.html#sec-8d64'>External Sources</a></li>
             <li><a href='index.html#sec-0bf4'>Contact</a></li>
@@ -24,24 +25,29 @@
     <nav id="menu">
     </nav>
     <div id='map'></div>
-    <div id="e-legend" class="legend">
-        <h4>Electricty usage (kWh)</h4>
-        <div><span style="background-color: #1a9641"></span>0 - 639182.20</div>
-        <div><span style="background-color: #fecc5c"></span>1211882.80</div>
-        <div><span style="background-color: #fd8d3c"></span>1688356.00</div>
-        <div><span style="background-color: #f03b20"></span>3199000.00</div>
-        <div><span style="background-color: #d7191c"></span>12759891.00</div>
+    <div id="e-legend" class="legend hidden">
+        <h4>Electricty Usage (kWh)</h4>
+        <div><span style="background-color: #ffffb2"></span>2,068,334 - 45,059,324</div>
+        <div><span style="background-color: #fecc5c"></span>45,059,324 - 66,321,832</div>
+        <div><span style="background-color: #fd8d3c"></span>66,321,832 - 94,903,651</div>
+        <div><span style="background-color: #f03b20"></span>94,903,651 - 154,714,787</div>
+        <div><span style="background-color: #bd0026"></span>154,714,787 - 1,438,453,869</div>
     </div>
 
-    <div id="g-legend" class="legend">
+    <div id="g-legend" class="legend hidden">
         <h4>Natural Gas Usage (therms)</h4>
-        <div><span style="background-color: #1a9641"></span>0 - 639182.20</div>
-        <div><span style="background-color: #fecc5c"></span>1211882.80</div>
-        <div><span style="background-color: #fd8d3c"></span>1688356.00</div>
-        <div><span style="background-color: #f03b20"></span>3199000.00</div>
-        <div><span style="background-color: #d7191c"></span>12759891.00</div>
+        <div><span style="background-color: #1a9641"></span>103,004 - 639,182</div>
+        <div><span style="background-color: #fecc5c"></span>639,182 - 1,211,882</div>
+        <div><span style="background-color: #fd8d3c"></span>1,211,882 - 1,688,356</div>
+        <div><span style="background-color: #f03b20"></span>1,688,356 - 3,199,000</div>
+        <div><span style="background-color: #d7191c"></span>3,199,000 - 12,759,891</div>
+    </div>
+    <div>
+        
     </div>
     <script src="js/main.js"></script>
+    
+    
 </body>
 
 </html>
